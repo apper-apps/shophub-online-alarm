@@ -1,0 +1,84 @@
+{
+  "reviewData": [
+    {
+      "Id": 1,
+      "productId": 1,
+      "rating": 5,
+      "title": "Amazing phone with incredible camera",
+      "comment": "The iPhone 15 Pro exceeded my expectations. The camera quality is outstanding, especially in low light conditions. The titanium build feels premium and the battery life easily lasts a full day.",
+      "date": "2024-01-10T14:30:00Z"
+    },
+    {
+      "Id": 2,
+      "productId": 1,
+      "rating": 4,
+      "title": "Great upgrade from previous generation",
+      "comment": "Solid improvement over the iPhone 14 Pro. The Action Button is very convenient and USB-C is finally here. Only minor complaint is the price, but the quality justifies it.",
+      "date": "2024-01-08T09:15:00Z"
+    },
+    {
+      "Id": 3,
+      "productId": 2,
+      "rating": 5,
+      "title": "Perfect laptop for creative work",
+      "comment": "The M3 chip is incredibly fast for video editing and design work. The display is gorgeous and the silent operation is a huge plus. Battery life is excellent for productivity tasks.",
+      "date": "2024-01-05T16:45:00Z"
+    },
+    {
+      "Id": 4,
+      "productId": 3,
+      "rating": 5,
+      "title": "Best noise-canceling headphones I've owned",
+      "comment": "The noise cancellation is phenomenal - perfect for flights and busy offices. Sound quality is crisp and balanced. Comfortable for long listening sessions.",
+      "date": "2024-01-03T11:20:00Z"
+    },
+    {
+      "Id": 5,
+      "productId": 3,
+      "rating": 4,
+      "title": "Great sound but pricey",
+      "comment": "Excellent audio quality and the noise canceling works very well. Battery life is as advertised. Wish they were a bit more affordable but you get what you pay for.",
+      "date": "2023-12-30T13:10:00Z"
+    },
+    {
+      "Id": 6,
+      "productId": 4,
+      "rating": 4,
+      "title": "Comfortable and well-made hoodie",
+      "comment": "Really soft material and fits perfectly. The quality seems good for the price. Great for casual wear and layering. Color has held up well after several washes.",
+      "date": "2023-12-28T08:30:00Z"
+    },
+    {
+      "Id": 7,
+      "productId": 5,
+      "rating": 5,
+      "title": "Perfect fit and great quality denim",
+      "comment": "These jeans fit exactly as expected and the quality is excellent. The dark wash looks great and they're comfortable for all-day wear. Highly recommend.",
+      "date": "2023-12-25T15:45:00Z"
+    },
+    {
+      "Id": 8,
+      "productId": 7,
+      "rating": 5,
+      "title": "Incredibly soft and breathable sheets",
+      "comment": "These organic cotton sheets are amazing! So soft and they keep me cool at night. The quality feels premium and they've gotten even softer after washing.",
+      "date": "2023-12-22T10:15:00Z"
+    },
+    {
+      "Id": 9,
+      "productId": 9,
+      "rating": 5,
+      "title": "Life-changing book about habits",
+      "comment": "This book completely changed how I think about building habits. The strategies are practical and backed by science. Easy to read and implement. Highly recommend!",
+      "date": "2023-12-20T14:00:00Z"
+    },
+    {
+      "Id": 10,
+      "productId": 10,
+      "rating": 4,
+      "title": "Great yoga mat for the price",
+      "comment": "Non-slip surface works well and provides good cushioning. The alignment lines are helpful for poses. Durable construction and comes with a nice carrying strap.",
+      "date": "2023-12-18T12:30:00Z"
+    }
+  ]
+}

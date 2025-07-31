@@ -1,0 +1,440 @@
+{
+  "productData": [
+    {
+      "Id": 1,
+      "name": "iPhone 15 Pro",
+      "description": "The most advanced iPhone yet with titanium design, A17 Pro chip, and revolutionary camera system. Features USB-C connectivity, customizable Action Button, and industry-leading performance for professionals and creators.",
+      "price": 999.99,
+      "salePrice": null,
+      "images": [
+        "https://images.unsplash.com/photo-1695048133142-1a20484d2569?w=500&h=500&fit=crop",
+        "https://images.unsplash.com/photo-1695048133142-1a20484d2569?w=500&h=500&fit=crop"
+      ],
+      "category": "Electronics",
+      "categoryId": 1,
+      "subcategory": "Smartphones",
+      "rating": 4.8,
+      "reviewCount": 1247,
+      "inStock": true,
+      "variants": [
+        {
+          "Id": "iphone15-128",
+          "name": "128GB",
+          "price": 999.99,
+          "attributes": { "storage": "128GB", "color": "Natural Titanium" },
+          "stock": 25
+        },
+        {
+          "Id": "iphone15-256",
+          "name": "256GB",
+          "price": 1099.99,
+          "attributes": { "storage": "256GB", "color": "Natural Titanium" },
+          "stock": 18
+        }
+      ],
+      "createdAt": "2024-01-15T10:00:00Z"
+    },
+    {
+      "Id": 2,
+      "name": "MacBook Air M3",
+      "description": "Supercharged by the M3 chip, MacBook Air is up to 60% faster than the previous generation. Features a stunning 13.6-inch Liquid Retina display, up to 18 hours of battery life, and silent operation with no fan.",
+      "price": 1299.99,
+      "salePrice": 1199.99,
+      "images": [
+        "https://images.unsplash.com/photo-1541807084-5c52b6b3adef?w=500&h=500&fit=crop",
+        "https://images.unsplash.com/photo-1541807084-5c52b6b3adef?w=500&h=500&fit=crop"
+      ],
+      "category": "Electronics",
+      "categoryId": 1,
+      "subcategory": "Laptops",
+      "rating": 4.9,
+      "reviewCount": 892,
+      "inStock": true,
+      "variants": [
+        {
+          "Id": "macbook-256",
+          "name": "256GB SSD",
+          "price": 1199.99,
+          "attributes": { "storage": "256GB", "memory": "8GB", "color": "Space Gray" },
+          "stock": 12
+        },
+        {
+          "Id": "macbook-512",
+          "name": "512GB SSD",
+          "price": 1399.99,
+          "attributes": { "storage": "512GB", "memory": "8GB", "color": "Space Gray" },
+          "stock": 8
+        }
+      ],
+      "createdAt": "2024-01-10T14:30:00Z"
+    },
+    {
+      "Id": 3,
+      "name": "Sony WH-1000XM5",
+      "description": "Industry-leading noise canceling wireless headphones with exceptional sound quality. Features 30-hour battery life, quick charge, multipoint connection, and speak-to-chat technology for seamless communication.",
+      "price": 399.99,
+      "salePrice": 299.99,
+      "images": [
+        "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=500&h=500&fit=crop",
+        "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=500&h=500&fit=crop"
+      ],
+      "category": "Electronics",
+      "categoryId": 1,
+      "subcategory": "Audio",
+      "rating": 4.7,
+      "reviewCount": 2103,
+      "inStock": true,
+      "variants": [
+        {
+          "Id": "sony-black",
+          "name": "Midnight Black",
+          "price": 299.99,
+          "attributes": { "color": "Black" },
+          "stock": 35
+        },
+        {
+          "Id": "sony-silver",
+          "name": "Platinum Silver",
+          "price": 299.99,
+          "attributes": { "color": "Silver" },
+          "stock": 22
+        }
+      ],
+      "createdAt": "2024-01-08T09:15:00Z"
+    },
+    {
+      "Id": 4,
+      "name": "Designer Cotton Blend Hoodie",
+      "description": "Premium cotton blend hoodie with modern fit and superior comfort. Features kangaroo pocket, adjustable drawstring hood, and ribbed cuffs. Perfect for casual wear or layering in cooler weather.",
+      "price": 89.99,
+      "salePrice": null,
+      "images": [
+        "https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=500&h=500&fit=crop",
+        "https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=500&h=500&fit=crop"
+      ],
+      "category": "Fashion",
+      "categoryId": 2,
+      "subcategory": "Hoodies",
+      "rating": 4.5,
+      "reviewCount": 456,
+      "inStock": true,
+      "variants": [
+        {
+          "Id": "hoodie-s-black",
+          "name": "Small - Black",
+          "price": 89.99,
+          "attributes": { "size": "S", "color": "Black" },
+          "stock": 15
+        },
+        {
+          "Id": "hoodie-m-black",
+          "name": "Medium - Black",
+          "price": 89.99,
+          "attributes": { "size": "M", "color": "Black" },
+          "stock": 20
+        },
+        {
+          "Id": "hoodie-l-black",
+          "name": "Large - Black",
+          "price": 89.99,
+          "attributes": { "size": "L", "color": "Black" },
+          "stock": 18
+        }
+      ],
+      "createdAt": "2024-01-12T16:20:00Z"
+    },
+    {
+      "Id": 5,
+      "name": "Classic Denim Jeans",
+      "description": "Timeless straight-leg denim jeans crafted from premium cotton denim. Features classic five-pocket styling, button closure, and durable construction that improves with age. Available in multiple washes.",
+      "price": 129.99,
+      "salePrice": 99.99,
+      "images": [
+        "https://images.unsplash.com/photo-1542272604-787c3835535d?w=500&h=500&fit=crop",
+        "https://images.unsplash.com/photo-1542272604-787c3835535d?w=500&h=500&fit=crop"
+      ],
+      "category": "Fashion",
+      "categoryId": 2,
+      "subcategory": "Jeans",
+      "rating": 4.6,
+      "reviewCount": 789,
+      "inStock": true,
+      "variants": [
+        {
+          "Id": "jeans-30-dark",
+          "name": "30x32 - Dark Wash",
+          "price": 99.99,
+          "attributes": { "waist": 30, "length": 32, "wash": "Dark" },
+          "stock": 12
+        },
+        {
+          "Id": "jeans-32-dark",
+          "name": "32x32 - Dark Wash",
+          "price": 99.99,
+          "attributes": { "waist": 32, "length": 32, "wash": "Dark" },
+          "stock": 25
+        },
+        {
+          "Id": "jeans-34-dark",
+          "name": "34x32 - Dark Wash",
+          "price": 99.99,
+          "attributes": { "waist": 34, "length": 32, "wash": "Dark" },
+          "stock": 18
+        }
+      ],
+      "createdAt": "2024-01-05T11:45:00Z"
+    },
+    {
+      "Id": 6,
+      "name": "Modern Coffee Table",
+      "description": "Sleek and contemporary coffee table featuring clean lines and premium oak wood construction. Perfect centerpiece for modern living rooms with built-in storage compartment and scratch-resistant finish.",
+      "price": 449.99,
+      "salePrice": null,
+      "images": [
+        "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=500&h=500&fit=crop",
+        "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=500&h=500&fit=crop"
+      ],
+      "category": "Home & Garden",
+      "categoryId": 3,
+      "subcategory": "Furniture",
+      "rating": 4.4,
+      "reviewCount": 234,
+      "inStock": true,
+      "variants": [
+        {
+          "Id": "table-oak",
+          "name": "Natural Oak",
+          "price": 449.99,
+          "attributes": { "material": "Oak", "finish": "Natural" },
+          "stock": 8
+        },
+        {
+          "Id": "table-walnut",
+          "name": "Dark Walnut",
+          "price": 469.99,
+          "attributes": { "material": "Walnut", "finish": "Dark" },
+          "stock": 5
+        }
+      ],
+      "createdAt": "2024-01-03T13:10:00Z"
+    },
+    {
+      "Id": 7,
+      "name": "Organic Cotton Bed Sheets Set",
+      "description": "Luxuriously soft 100% organic cotton percale sheet set. Includes fitted sheet, flat sheet, and pillowcases. Breathable weave perfect for year-round comfort with GOTS certification for organic standards.",
+      "price": 199.99,
+      "salePrice": 149.99,
+      "images": [
+        "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=500&h=500&fit=crop",
+        "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=500&h=500&fit=crop"
+      ],
+      "category": "Home & Garden",
+      "categoryId": 3,
+      "subcategory": "Bedding",
+      "rating": 4.8,
+      "reviewCount": 567,
+      "inStock": true,
+      "variants": [
+        {
+          "Id": "sheets-queen-white",
+          "name": "Queen - White",
+          "price": 149.99,
+          "attributes": { "size": "Queen", "color": "White" },
+          "stock": 30
+        },
+        {
+          "Id": "sheets-king-white",
+          "name": "King - White",
+          "price": 169.99,
+          "attributes": { "size": "King", "color": "White" },
+          "stock": 18
+        },
+        {
+          "Id": "sheets-queen-gray",
+          "name": "Queen - Stone Gray",
+          "price": 149.99,
+          "attributes": { "size": "Queen", "color": "Stone Gray" },
+          "stock": 22
+        }
+      ],
+      "createdAt": "2024-01-01T08:30:00Z"
+    },
+    {
+      "Id": 8,
+      "name": "The Midnight Library",
+      "description": "Bestselling novel by Matt Haig about infinite possibilities and the choices that define us. Follow Nora Seed as she discovers a magical library between life and death, exploring alternate versions of her life.",
+      "price": 16.99,
+      "salePrice": null,
+      "images": [
+        "https://images.unsplash.com/photo-1544947950-fa07a98d237f?w=500&h=500&fit=crop",
+        "https://images.unsplash.com/photo-1544947950-fa07a98d237f?w=500&h=500&fit=crop"
+      ],
+      "category": "Books",
+      "categoryId": 4,
+      "subcategory": "Fiction",
+      "rating": 4.3,
+      "reviewCount": 1892,
+      "inStock": true,
+      "variants": [
+        {
+          "Id": "book-paperback",
+          "name": "Paperback",
+          "price": 16.99,
+          "attributes": { "format": "Paperback", "pages": 288 },
+          "stock": 45
+        },
+        {
+          "Id": "book-hardcover",
+          "name": "Hardcover",
+          "price": 24.99,
+          "attributes": { "format": "Hardcover", "pages": 288 },
+          "stock": 20
+        }
+      ],
+      "createdAt": "2023-12-28T10:15:00Z"
+    },
+    {
+      "Id": 9,
+      "name": "Atomic Habits",
+      "description": "Transformative guide by James Clear on building good habits and breaking bad ones. Learn the proven framework for improving every day with practical strategies backed by science and real-world examples.",
+      "price": 18.99,
+      "salePrice": 14.99,
+      "images": [
+        "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=500&h=500&fit=crop",
+        "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=500&h=500&fit=crop"
+      ],
+      "category": "Books",
+      "categoryId": 4,
+      "subcategory": "Self-Help",
+      "rating": 4.7,
+      "reviewCount": 3245,
+      "inStock": true,
+      "variants": [
+        {
+          "Id": "atomic-paperback",
+          "name": "Paperback",
+          "price": 14.99,
+          "attributes": { "format": "Paperback", "pages": 320 },
+          "stock": 60
+        },
+        {
+          "Id": "atomic-hardcover",
+          "name": "Hardcover",
+          "price": 21.99,
+          "attributes": { "format": "Hardcover", "pages": 320 },
+          "stock": 25
+        }
+      ],
+      "createdAt": "2023-12-25T14:45:00Z"
+    },
+    {
+      "Id": 10,
+      "name": "Professional Yoga Mat",
+      "description": "Premium non-slip yoga mat made from eco-friendly TPE material. Features superior grip, cushioning, and durability. Includes carrying strap and alignment lines for perfect pose positioning during practice.",
+      "price": 79.99,
+      "salePrice": null,
+      "images": [
+        "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=500&h=500&fit=crop",
+        "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=500&h=500&fit=crop"
+      ],
+      "category": "Sports",
+      "categoryId": 5,
+      "subcategory": "Fitness Equipment",
+      "rating": 4.6,
+      "reviewCount": 678,
+      "inStock": true,
+      "variants": [
+        {
+          "Id": "yoga-purple",
+          "name": "Purple",
+          "price": 79.99,
+          "attributes": { "color": "Purple", "thickness": "6mm" },
+          "stock": 28
+        },
+        {
+          "Id": "yoga-teal",
+          "name": "Teal",
+          "price": 79.99,
+          "attributes": { "color": "Teal", "thickness": "6mm" },
+          "stock": 32
+        },
+        {
+          "Id": "yoga-black",
+          "name": "Black",
+          "price": 79.99,
+          "attributes": { "color": "Black", "thickness": "6mm" },
+          "stock": 24
+        }
+      ],
+      "createdAt": "2023-12-22T09:00:00Z"
+    },
+    {
+      "Id": 11,
+      "name": "Wireless Bluetooth Earbuds",
+      "description": "True wireless earbuds with active noise cancellation and premium sound quality. Features 8-hour battery life, IPX7 water resistance, and touch controls for calls and music.",
+      "price": 159.99,
+      "salePrice": 119.99,
+      "images": [
+        "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?w=500&h=500&fit=crop",
+        "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?w=500&h=500&fit=crop"
+      ],
+      "category": "Electronics",
+      "categoryId": 1,
+      "subcategory": "Audio",
+      "rating": 4.4,
+      "reviewCount": 1456,
+      "inStock": true,
+      "variants": [
+        {
+          "Id": "earbuds-white",
+          "name": "White",
+          "price": 119.99,
+          "attributes": { "color": "White" },
+          "stock": 40
+        },
+        {
+          "Id": "earbuds-black",
+          "name": "Black",
+          "price": 119.99,
+          "attributes": { "color": "Black" },
+          "stock": 35
+        }
+      ],
+      "createdAt": "2023-12-20T15:30:00Z"
+    },
+    {
+      "Id": 12,
+      "name": "Smart Fitness Watch",
+      "description": "Advanced fitness tracker with heart rate monitoring, GPS, and 7-day battery life. Track workouts, sleep, and daily activities with comprehensive health insights and smartphone notifications.",
+      "price": 299.99,
+      "salePrice": null,
+      "images": [
+        "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&h=500&fit=crop",
+        "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&h=500&fit=crop"
+      ],
+      "category": "Electronics",
+      "categoryId": 1,
+      "subcategory": "Wearables",
+      "rating": 4.5,
+      "reviewCount": 923,
+      "inStock": true,
+      "variants": [
+        {
+          "Id": "watch-black-s",
+          "name": "Small - Black",
+          "price": 299.99,
+          "attributes": { "size": "Small", "color": "Black" },
+          "stock": 15
+        },
+        {
+          "Id": "watch-black-m",
+          "name": "Medium - Black",
+          "price": 299.99,
+          "attributes": { "size": "Medium", "color": "Black" },
+          "stock": 22
+        }
+      ],
+      "createdAt": "2023-12-18T12:00:00Z"
+    }
+  ]
+}
