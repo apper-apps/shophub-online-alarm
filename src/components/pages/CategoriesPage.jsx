@@ -119,17 +119,17 @@ const CategoriesPage = () => {
                 icon: "Award"
               }
             ].map((feature, index) => (
-              <motion.div
+<motion.div
                 key={feature.title}
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.5 + (0.1 * index) }}
                 className="bg-white rounded-xl border border-secondary-200 p-6"
-className="bg-white rounded-xl border border-secondary-200 p-6"
               >
                 <div className="bg-gradient-to-r from-primary-500 to-primary-600 p-3 rounded-full w-12 h-12 mx-auto mb-4 flex items-center justify-center">
                   <AppIcon name={feature.icon} size={20} className="text-white" />
                 </div>
+                <h3 className="text-lg font-semibold text-secondary-900 mb-2">
                   {feature.title}
                 </h3>
                 <p className="text-secondary-600">
