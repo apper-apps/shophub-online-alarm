@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import CategoryCard from "@/components/molecules/CategoryCard";
 import Loading from "@/components/ui/Loading";
 import Error from "@/components/ui/Error";
-import AppIcon from "@/components/ui/AppIcon";
+import ApperIcon from "@/components/ApperIcon";
 import { categoryService } from "@/services/api/categoryService";
 
 const CategoriesPage = () => {
@@ -126,8 +126,8 @@ const CategoriesPage = () => {
                 transition={{ delay: 0.5 + (0.1 * index) }}
                 className="bg-white rounded-xl border border-secondary-200 p-6"
               >
-                <div className="bg-gradient-to-r from-primary-500 to-primary-600 p-3 rounded-full w-12 h-12 mx-auto mb-4 flex items-center justify-center">
-                  <AppIcon name={feature.icon} size={20} className="text-white" />
+<div className="bg-gradient-to-r from-primary-500 to-primary-600 p-3 rounded-full w-12 h-12 mx-auto mb-4 flex items-center justify-center">
+                  <ApperIcon name={feature.icon} size={20} className="text-white" />
                 </div>
                 <h3 className="text-lg font-semibold text-secondary-900 mb-2">
                   {feature.title}
